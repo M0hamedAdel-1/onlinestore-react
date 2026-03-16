@@ -1,0 +1,28 @@
+.top_slide{
+    padding: 15px 20px 20px 0;
+    border-bottom: 1px solid var(--border_color);
+    position: relative;
+    margin-bottom: 20px;
+}
+.top_slide::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    background-color: var(--main_color);
+    height: 2px;
+    bottom: -1px;
+
+}
+.top_slide h1{
+    color: var(--main_color);
+    font-size: 30px ;
+    margin-bottom: 10px;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}

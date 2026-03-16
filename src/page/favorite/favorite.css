@@ -1,0 +1,22 @@
+.favorite_items .container .items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+ @media (max-width:991px){
+    .favorite_items .container .items{
+        justify-content: center;
+
+    }
+ }
+ @media (max-width:1100px){
+    .favorite_items .container .items{
+        margin: 100px auto;
+        
+
+    }
+ }
+
