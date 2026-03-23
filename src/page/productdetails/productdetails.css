@@ -146,3 +146,17 @@
         background-position: right -40px top 0;
     }
 }
+
+@media (max-width:776px) {
+    .item_details .container{
+        flex-direction: column;
+    }
+    .item_details .container .item_imgs{
+        margin-bottom: 20px;
+    }
+    .item_imgs .big_img img {
+        width: 300px;
+    }
+
+    
+}
