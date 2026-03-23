@@ -45,7 +45,7 @@ const Heroslider = () => {
                 <p>windows xp 7/8/10 ps3 / tv box</p>
                 <Link to="/" className='btn'> shop now</Link>
             </div>
-            <img src='../../public/img/banner_Hero1.jpg' alt='slider img'/>
+            <img src='public\img\banner_Hero1.jpg' alt='slider img'/>
         </SwiperSlide>
         <SwiperSlide>
             <div className='content'>
@@ -54,7 +54,7 @@ const Heroslider = () => {
                 <p>windows xp 7/8/10 ps3 / tv box</p>
                 <Link to="/" className='btn'> shop now</Link>
             </div>
-            <img src='../../public/img/banner_Hero2.jpg' alt='slider img'/>
+            <img src='public\img\banner_Hero1.jpg' alt='slider img'/>
         </SwiperSlide>
         <SwiperSlide>
             <div className='content'>
@@ -63,7 +63,7 @@ const Heroslider = () => {
                 <p>windows xp 7/8/10 ps3 / tv box</p>
                 <Link to="/" className='btn'> shop now</Link>
             </div>
-            <img src='../../public/img/banner_Hero3.jpg' alt='slider img'/>
+            <img src='public\img\banner_Hero1.jpg' alt='slider img'/>
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
                 <svg viewBox="0 0 48 48" ref={progressCircle}>
